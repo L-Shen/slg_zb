@@ -64,6 +64,8 @@ int main()
 	cin >> k;
 	cin >> num;
 
+	printf("测试");//
+
 	List *list = initList(len);	//初始化循环链表 长度
 
 	for (int i = 1; i < k; i++)	//将循环链表起始位置挪到输入的起始位置
